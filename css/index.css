@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+li{
+  list-style: none;  
+}
+
+body{
+    background-color: rgb(83,131,232);
+}
+
+.logo span {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.header-nav img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-div {
+    background-color: rgb(40, 52,78);
+}
+
+.header-div2 {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    margin-right: 68vw;
+    cursor: pointer;
+}
+
+.header-nav li {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.header-nav li:hover{
+    font-size: 14px;
+    color: rgb(83,131,232);
+}
+
+.weather span {
+    font-size: 12px;
+}
+
+.weather {
+    align-self: center;
+}
+
+.navbar-2 {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.navbar-2 ul {
+    display: flex;
+}
+
+.navbar-2 li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: rgb(162, 192, 251);
+    align-self: center;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.navbar-2 li:hover{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.patch {
+    width: 142px;
+    height: 32px;
+    background-color: rgb(65, 113, 214);
+    border-radius: 15px; 
+    align-self: center;
+}
+
+.patch a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 32px;
+    cursor: pointer;
+}
+
+.patch a p {
+    font-size: 12px;
+    color: rgb(254, 236, 154);
+    font-weight: 700;   
+}
+
+.patch span {
+    font-size: 12px;
+}
+
+.subnavbar {
+    height: 40px;
+    background-color: rgb(255, 185, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subnavbar span {
+    font-size: 14px;
+    color: #000;
+}
+
+.subnavbar a{
+    width: 60vw;
+}
+
