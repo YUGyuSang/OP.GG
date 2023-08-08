@@ -27,6 +27,7 @@ body{
 
 .header-div {
     background-color: rgb(40, 52,78);
+    min-width: 1200px;
 }
 
 .header-div2 {
@@ -37,19 +38,18 @@ body{
 
 .header-nav {
     display: flex;
-    margin-right: 68vw;
+    margin-right: 60%;
     cursor: pointer;
 }
 
 .header-nav li {
-    font-size: 12px;
+    font-size: 0.7em;
     margin-left: 10px;
     margin-right: 10px;
     align-self: center;
 }
 
 .header-nav li:hover{
-    font-size: 14px;
     color: rgb(83,131,232);
 }
 
@@ -59,6 +59,10 @@ body{
 
 .weather {
     align-self: center;
+}
+
+.navbar{
+    min-width: 1200px;
 }
 
 .navbar-2 {
@@ -129,3 +133,46 @@ body{
     width: 60vw;
 }
 
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.main-container{
+    width: 370px;
+    margin: 0 auto;
+}
+
+.img-container{
+    text-align: center;
+    margin-top: 5%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.img-container img{
+    width: 370px;
+    height: 220px;
+    /* transform: translate(-100%); */
+}
+
+.radio-buttons{
+    text-align: center;
+}
+
+.radio-buttons input{
+    display: none;
+}
+
+.serch-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serch{
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+}
