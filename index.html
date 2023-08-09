@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -45,17 +49,69 @@
       <div class="main-container">
         <div class="img-container">
           <img src="./img/ram.png" alt="람머스" />
-          <img src="img/amoo.png" alt="아무무" />
+          <img src="img/Polo.png" alt="포로" />
         </div>
         <div class="radio-buttons">
           <input type="radio" name="silder" id="radio1" checked />
           <input type="radio" name="silder" id="radio2" />
         </div>
       </div>
-      <div class="serch-box">
-        <div class="serch"></div>
-      </div> 
+      <div class="search-box">
+        <div class="search">
+            <div class="language">
+                <div>
+                    <small class="label">Region</small>
+                </div>
+                <button>
+                    <select id="kr">
+                        <option value="kr">korea</option>
+                        <option value="em">English</option>
+                        <option value="jp">Japanese</option>
+                    </select>
+                </button>
+            </div>
+            <div class="subSearch">
+                <div class="labelbox"><label>Search</label></div>
+                <input type="text" id="search-input" placeholder="소환사명, 소환사명, ...">
+            </div>
+            <div>
+                <span>.GG</span>
+            </div>
+        </div>
+      </div>
+      <div class="downlode-cotainer">
+        <div class="downlode">
+            <span>🧑‍💻 데스크탑 무료 다운받기</span>
+        </div> 
+      </div>
+      <div class="article-container">
+        <div class="articleBoxs">
+            <div class="article">
+                <h2><a href="#">OP.GG Talk 인기글</a></h2>
+                <div class="rankingTitle"></div>
+                <!-- <article>
+                    <a href="#">
+                        <div class="ranking"><em>1</em></div>
+                        <img src="./img/logo.jpeg" alt="로고">
+                        <div class="ranking-title">
+                            <div>
+                                <span>어느 먹방 유튜버의 인성</span><p>[24]</p>
+                            </div>
+                            <div>
+                                <h6>11시간 전</h6><h6>왕 귀 력</h6>
+                            </div>
+                        </div>
+                    </a>
+                </article> -->
+            </div>
+            <div class="article"></div>
+        </div>
+      </div>
     </div>
+
+    <footer>
+        
+    </footer>
   </body>
   <script src="./js/index.js"></script>
 </html>
